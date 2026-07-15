@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Credentials & environment config
+.env
+service_account.json
+
+# Local simulated spreadsheet and output JSONs
+fetched_profiles.json
+influencer_sheet_mock.csv
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Operating system files
+.DS_Store
+Thumbs.db
